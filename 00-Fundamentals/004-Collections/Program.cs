@@ -8,3 +8,6 @@ StackExample.Run();
 
 Console.WriteLine("\nRunning Queue Example\n");
 QueueExample.Run();
+
+Console.WriteLine("\nRunning List Example\n");
+ListExample.Run();
