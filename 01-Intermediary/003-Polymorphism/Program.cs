@@ -1,17 +1,21 @@
 ﻿using Inheritance.Models;
 
-Student student = new();
+// Creating a Student object
+Person student = new Student
+{
+    Name = "Victor",
+    Age = 21,
+    Grade = 9.85
+};
 
-student.Name = "Victor";
-student.Age = 21;
-student.Grade = 9.85;
+// Creating a Teacher object
+Person teacher = new Teacher
+{
+    Name = "Leo",
+    Age = 25,
+    Salary = 5000.00M
+};
 
+// Invoking the Introduce method on both objects
 student.Introduce();
-
-Teacher teacher = new();
-
-teacher.Name = "Leo";
-teacher.Age = 25;
-teacher.Salary = 5000.00M;
-
 teacher.Introduce();
